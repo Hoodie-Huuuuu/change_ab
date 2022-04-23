@@ -6,5 +6,5 @@ setuptools.setup(
     author='George Shpilevoy',
     description='Testing installation of Package',
     url='https://github.com/Hoodie-Huuuuu/change_ab',
-    packages=['change_ab']
+    packages=setuptools.find_packages()
 )
